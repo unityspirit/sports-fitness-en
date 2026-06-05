@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gsf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A94B"/>
+      <stop offset="100%" stop-color="#b8912f"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#gsf)" stroke-width="2"/>
+  <!-- Dumbbell -->
+  <rect x="40" y="85" width="20" height="30" rx="3" fill="none" stroke="url(#gsf)" stroke-width="2.5"/>
+  <rect x="140" y="85" width="20" height="30" rx="3" fill="none" stroke="url(#gsf)" stroke-width="2.5"/>
+  <line x1="60" y1="100" x2="140" y2="100" stroke="url(#gsf)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Weight plates -->
+  <rect x="33" y="88" width="7" height="24" rx="2" fill="url(#gsf)" opacity="0.7"/>
+  <rect x="160" y="88" width="7" height="24" rx="2" fill="url(#gsf)" opacity="0.7"/>
+  <!-- Running figure -->
+  <circle cx="100" cy="50" r="8" fill="none" stroke="url(#gsf)" stroke-width="2"/>
+  <!-- Body -->
+  <line x1="100" y1="58" x2="100" y2="68" stroke="url(#gsf)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Arms -->
+  <line x1="100" y1="62" x2="90" y2="56" stroke="url(#gsf)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="100" y1="62" x2="110" y2="68" stroke="url(#gsf)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Heartbeat at bottom -->
+  <polyline points="50,150 70,150 78,140 86,160 94,135 100,150 106,150 112,142 118,150 150,150"
+    fill="none" stroke="url(#gsf)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
